@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 2px solid red; 
+            margin: auto;
+            width: 500px;
+            margin-top:400px;
+            height: 3002px;
+        }
+        .ch{
+            display:inline-block;
+            border: 2px solid green;
+            width: 70px;
+            height: 70px;
+            margin: 4px;
+        }
+         /* position static hoti hai by difoult */
+        
+        #ch3{
+            position: relative;
+            top: 22px;
+            left: 22px;
+        }
+
+        #ch2{
+            position:absolute;
+            top: 40px;
+            left: 70px;
+
+        }
+        #ch1{
+            position: sticky;
+            top: 5px;
+        }
+        #ch4{
+            position: fixed;
+            top: 400px;
+            right: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+         
+        <div class="ch" id="ch1">1 sticky position</div>
+        <div class="ch" id="ch2">2 absolute position</div>
+        <div class="ch" id="ch3">3 relative positin</div>
+        <div class="ch" id="ch4">4 fixed position</div>
+    </div>
+</body>
+</html>
