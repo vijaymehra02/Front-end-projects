@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=REM:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('house.jpg');
+        background-size: 1600px;
+        height: 800px;
+        background-repeat: no-repeat;
+        font-family: 'Pacifico', cursive;
+        font-family: 'REM', sans-serif;
+
+    }
+
+
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 2px;
+
+    }
+
+    .logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo ul div {
+        list-style: none;
+        position: absolute;
+        top: 43px;
+        right: 5px;
+        left: 150px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+        padding-top: 40px;
+
+
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        top: 45px;
+        right: 2px;
+        padding-top: 40px;
+    }
+
+    .bar li {
+        color: black;
+        display: inline-block;
+
+    }
+
+    .bar li a {
+        color: black;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 27px;
+    }
+
+    .bar li a:hover,
+    .bar li a.active {
+        color: rgb(226, 7, 7);
+        text-decoration: underline;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin-right: 10px;
+
+        padding: 3px;
+        border-radius: 15px;
+        font-family: 'Pacifico', cursive;
+        font-family: 'REM', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: chocolate;
+        color: white;
+        cursor: pointer;
+    }
+
+    .contaner {
+
+        margin: 150px 300px;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        color: rgb(7, 40, 28);
+        display: inline-block;
+        margin-top: 140px;
+        margin: auto;
+        margin-left: 550px;
+        margin-top: 50px;
+
+
+
+    }
+
+    .contaner div {
+
+        margin: 16px 80px;
+        text-align: left;
+        padding: 4px;
+        font-family: 'Pacifico', cursive;
+        font-family: 'REM', sans-serif;
+        font-size: 20px;
+        background-color: #a28bc0;
+        color: black;
+
+    }
+
+    .form-group input {
+        background-color: rgb(96, 134, 129);
+        color: black;
+    }
+
+    .form-group select {
+        background-color: rgb(96, 134, 129);
+    }
+
+    .form-group ::placeholder {
+        color: black;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left div for logo -->
+        <div class="left">
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <ul class="logotext">
+                    <div>
+                        <li>FING</li>
+                        <li>HOME</li>
+                        <LI>ANEY</LI>
+                        <LI>WHERE</LI>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- mid div for bar -->
+        <div class="mid">
+            <ul class="bar">
+                <li class="itm"><a href="#">Home</a></li>
+                <li class="itm"><a href="#">About</a></li>
+                <li class="itm"><a href="#">Info</a></li>
+                <li class="itm"><a href="#">Explor</a></li>
+            </ul>
+
+        </div>
+        <!-- right div for search -->
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="contaner">
+        <form action="no.php">
+            <div class="form-group">
+                <label for="name">your Name :</label>
+                <input type="text" placeholder="enter your name" id="name">
+            </div>
+
+            <div class="form-group">
+                <label for="chin">Chewk In :</label>
+                <input type="datetime-local" id="chin">
+            </div>
+
+            <div class="form-group">
+                <label for="chout">Chewk out :</label>
+                <input type="datetime-local" id="chout">
+            </div>
+
+            <div class="form-group">
+                <label for="buggit">your buggit : </label>
+                <select name="beggit" id="buggit">
+                    <option value="5000">5000-8000</option>
+                    <option value="5000">8000-10000</option>
+                    <option value="5000">10000-12000</option>
+                    <option value="5000">12000-14000</option>
+                    <option value="5000">14000-15000</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="submit">
+                <input type="submit">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
