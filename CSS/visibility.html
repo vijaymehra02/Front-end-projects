@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility</title>
+    <style>
+    .box{
+        width: 25px;
+        height: 25px;
+    }
+    /* bydefault visibility visible hoti hai  */
+    /* ise lga bhi de to koi fark nhi padega */
+    #box1{
+         background-color: blue;
+         visibility: visible;
+    }
+
+    /* hidden lga dene se wo gayab ho jayega bhut  uski space shoe hoti hai  */
+    #box2{
+        background-color: rgb(9, 181, 12);
+        visibility: hidden;
+    }
+
+    /* display:none; */
+    /* lga dene se element or uski space dono haid ho jati hai */
+    #box3{
+        background-color: rgb(227, 9, 118);
+        display: none;
+    }
+
+    
+    #box4{
+        background-color: rgb(163, 5, 13);
+    }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</body>
+</html>
