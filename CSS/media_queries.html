@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: red;
+            font-size: 30px;
+            text-align: center;
+            color: beige;
+        }
+        @media only screen and (max-width:390px ){
+            #box-1{
+                display: block;
+                background-color: black;
+            }
+        }
+        @media only screen and (min-width:390px)and ( max-width:820px ){
+            #box-2{
+                display: block;
+                background-color: black;
+            }
+        }
+       
+        @media only screen and (min-width:820px)and (max-width:1024px){
+            #box-3{
+                display: block;
+                background-color: black;
+            }
+        }
+        @media only screen and (min-width:1024px){
+            #box-4{
+                display: block;
+                background-color: black;
+            }
+        }
+
+    </style> 
+</head>
+<body>
+    <div class="box" id="box-1">i am iphone</div>
+    <div class="box" id="box-2">i am ipad</div>
+    <div class="box" id="box-3">i am a dekstop system</div>
+    <div class="box" id="box-4">i am a wide screen system</div>
+</body>
+</html>

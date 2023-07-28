@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <style>
+    .container{
+        font-size: 10px;
+    }
+    h1{
+        text-align: center;
+        color: aqua;
+    }
+    #h1{
+        /* iska parent iska container hai to cauntainer me 10px fount size hai to ye uska 10 gunna le le ga */
+        font-size: 10em;
+
+        /* padding ye font size ke multipal me leta hai mtlb fount size (10*10)*3=300 */
+        padding: 3em;
+    }
+   </style>
+<body>
+    <div class="container">
+        <h1 id="h1">this is first headline</h1>
+        <h1 id="h2">this is second hedline</h1>
+        <h1 id="h3">this is third headline</h1>
+    </div>
+</body>
+</html>
