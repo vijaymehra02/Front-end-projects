@@ -1,115 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project 2</title>
 </head>
+
 <body>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            #head{
-                border: 2px solid red;
-                width: 100%;
-                height: 100px;
+            body{
+                background-color: black;
+                color: wheat;
             }
-            .headblock{
-                border: 2px solid gold;
+            #head {
+                /* border: 2px solid red; */
+                width: 100%;
+                height: 150px;
+            }
+             .headblock {
+                /* border: 2px solid gold; */
                 margin: auto;
-                width: 90%;
-                height: 80px;
-                margin-top: 8px;
+                /* width: 90%;
+                height: 80px; */
+                /* margin-top: 8px; */
                
 
             }
-            .blockmatter{
-                border: 2px solid rgb(36, 24, 85);
+            #block1{
+                font-size: 40px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #block2{
+                font-size: 20px;
+                font-family: cursive;
+            }
+            #block3{
+                font-size: 20px;
+                font-family: cursive;
+            }
+
+            .blockmatter {
+                /* border: 2px solid rgb(4, 113, 47); */
                 text-align: center;
+                
             }
-            .bar{
-                border: 2px solid green;
-                margin-top:  2px;
+
+            .bar {
+                /* border: 2px solid green; */
+                margin-top: 2px;
             }
-            .itemslist{
-                border: 2px solid rgb(9, 9, 1);
+
+            .itemslist {
+                /* border: 2px solid rgb(9, 9, 1); */
                 margin: 2px 9px;
 
             }
-            .items{
-                display: inline-block;
-                padding: 3px;
-            }
-            .container{
-                border: 2px solid purple;
-            }
-            .ctnrhead{
-                border: 2px solid red;
-                margin: 2px 10px;
-            }
-            #leftimg{
-                border: 2px solid blue;
-                width: 60%;
-                height: 300px;
-                margin-left: 10px;
-                display: inline-block;
 
-            } 
-            #imgtext{
-                border: 2px solid black;
+            .items {
                 display: inline-block;
-                font-size: 100%;
-                width: 20%;
-                height: 9%;
-                text-align: center;
-                position: relative;
-                bottom: 110px;
+                padding: 14px;
+            }
+
+            .container {
+                /* border: 2px solid purple; */
+                padding: 10px;
+                display: flex;
                 
+            }
+
+            .ctnrhead {
+                /* border: 2px solid red; */
+                margin: 2px 10px;
+                width: 900px;
+                margin-left: 50px;
+            }
+
+            #leftimg {
+                /* border: 2px solid blue; */
+                width: 40%;
+                height: 250px;
+                margin-left: 10px;
+                size: 20px;
+                flex-grow: 4;
+                margin-left: 0px;
+
+            }
+            .flex{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            #imgtext {
+                /* border: 2px solid rgb(203, 190, 190); */
+                font-size:30px;  
+              
+                 margin-left: 90px;  
+               
+            }
+            .underhead {
+                /* border: 2px solid rgb(248, 6, 6); */
+                margin-top: 10px;
+              
+               
+            }
+            #class{
+                font-size: 40px;
+            }
+            
+
+            #text ::placeholder {
+                color: blue;
+            }
+
+            #text {
+                padding: 5px;
+                 margin-left: 60px;
+                /* border: 2px solid red; */
+                display: inline-block;
+             }
+            #text input{
+                background-color: aqua;
+            }
+            #text input:hover{
+                color: black;
+                background-color: white;
+                cursor: pointer;
+            }
+            .total{
+                /* border: 2px solid cornflowerblue; */
+            }
+            .list{
+               padding-left: 80px;
+            }
+            .listmaterial{
+                padding-top: 30px;
+            }
+            .listmaterial:hover{
+                cursor: pointer;
+                color: rgba(215, 213, 209, 0.807);
+            }
+            .home input{
+                color: aqua;
+                width: 900px;
+                height: 30px;
+                text-align: center;
+                margin-left: 50px;
+            }
+            .home input::placeholder{
+                color: rgb(231, 21, 21);
+                font-family: cursive
+            }
+            .home input:hover{
+                cursor: pointer;
             }
         </style>
     </head>
+
     <body>
         <header class="header" id="head">
-                <div class="headblock">
-                    <div class="blockmatter" id="block1">WWW.NCRTSOLUTIONS.IN</div>
-                    <div class="blockmatter" id="block2">NCRT SOLUTION PDF FREE</div>
-                    <div class="blockmatter" id="block3">cbse notes books</div>
-                </div>
+            <div class="headblock">
+                <div class="blockmatter" id="block1">WWW.NCRTSOLUTIONS.IN</div>
+                <div class="blockmatter" id="block2">NCRT SOLUTION PDF FREE</div>
+                <div class="blockmatter" id="block3">cbse notes books</div>
+            </div>
+            <div class="underhead">
+                
+                    <div id="text">
+                        <input type="text" placeholder="Type Here Claa ,Subject,Chapter">
+                        <input type="search"placeholder="search">
+                    </div>
+               
+
+            </div>
         </header>
         <div class="bar">
-          <div class="baritems">
-              <ul class="itemslist">
-                <li class="items" id="item1">Home</li>
-                <li class="items" id="item2">Class 6</li>
-                <li class="items" id="item3">class 7</li>
-                <li class="items" id="item4">class 8</li>
-                <li class="items" id="item5">class 9</li>
-                <li class="items" id="item6">class 10</li>
-                <li class="items" id="item7">class 11</li>
-                <li class="items" id="item8">class 12</li>
-                <li class="items" id="item9">papers </li>
-                <li class="items" id="item10">contact</li>
+            <div class="baritems">
+                <ul class="itemslist">
+                    <li class="items" id="item1">Home</li>
+                    <li class="items" id="item2">Class 6</li>
+                    <li class="items" id="item3">class 7</li>
+                    <li class="items" id="item4">class 8</li>
+                    <li class="items" id="item5">class 9</li>
+                    <li class="items" id="item6">class 10</li>
+                    <li class="items" id="item7">class 11</li>
+                    <li class="items" id="item8">class 12</li>
+                    <li class="items" id="item9">papers </li>
+                    <li class="items" id="item10">contact</li>
 
-              </ul>
-          </div>
+                </ul>
+            </div>
         </div>
+
         <div class="container">
             <div class="ctnrhead">
-            <div class="left">Class 6th match book PDF      
+                <div id="class">Class 6th match book PDF
+                  </div>
+
+                  <div class="flex">
+                       <div id="leftimg">     
+                       <img src="project2.png" alt="no">
+                       </div >
+                    <div id="imgtext">Dekhe ki naya kya hai
+                     </div>
+                </div>
+
             </div>
-            </div>
-        
-            <div class="left" id="leftimg">
-                 <img src="project2.png" alt="">
-            <div id="imgtext">Dekhe ki naya kya hai
-            </div>
-            </div>
-        </div>    
-        <div class="cotnrlist">
+        </div>
+
+        <div class="total">
             <div class="ctnritems">
                 <ul class="list">
                     <li class="listmaterial" id="listmaterial">Chapter 1 Knowing Our Number</li>
@@ -131,7 +237,10 @@
                 </ul>
             </div>
         </div>
-    </body>
-    </html>
+        <div class="home">
+            <input type="text"placeholder="HOME" >
+        </div>
+
 </body>
+
 </html>
