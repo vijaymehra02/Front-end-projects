@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --primcolour:red;
+        --box1clr:pink;
+        --box2clr:green;
+        --minwidth:90px;
+    }
+
+    .container{
+     background-color: var(--primcolour);
+     --cwidth:500px;
+     width:var(--cwidth);
+     height: var(--minwidth);
+     display: flex;
+
+    }
+    #box1{
+      width: var(--minwidth);
+      background-color: var(--box1clr);
+    }
+    #box2{
+      width: var(--minwidth);
+    }
+    #box3{
+      width: var(--minwidth);
+      background-color: var(--box2clr);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box 1</div>
+        <div class="box" id="box2">box 2</div>
+        <div class="box" id="box3">box 3</div>
+    </div>
+</body>
+</html>

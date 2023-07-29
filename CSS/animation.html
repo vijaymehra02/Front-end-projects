@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <style>
+    .container{
+        width: 100%;
+        height: 200px;
+        background-color: darkgreen;
+    }
+    .container>div{
+        height: 200px;
+        width: 200px;
+        background-color: greenyellow;
+        position: relative;
+        animation-name: vijay-2;
+        animation-duration: 3s;
+        animation-iteration-count: 8;
+        /* animation-fill-mode:alternate ;
+        animation-timing-function: ease-in-out;
+        animation-delay: 3s; */
+    }
+    @keyframes vijay-1{
+        form{
+            width: 200px;
+        }
+        to{
+            width: 800px;
+        }
+    }
+    @keyframes vijay-2{
+        0%{
+            top: 0px;
+            left: 0px;
+        }
+        25%{
+            top: 250px;
+            left: 0px;
+        }
+        50%{
+            top: 250px;
+            left: 250px;
+        }
+        75%{
+            top: 0px;
+            left: 250px;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        }
+    }
+  </style>
+<body>
+    <div class="container">
+        <div>
+            box
+        </div>
+    </div>
+</body>
+</html>
