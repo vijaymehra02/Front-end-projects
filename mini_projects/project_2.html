@@ -70,11 +70,50 @@
             }
 
             .container {
-                /* border: 2px solid purple; */
+                border: 2px solid purple;
                 padding: 10px;
                 display: flex;
+                width: 100vw;
+                justify-content: space-between;
+                
                 
             }
+            .containerleft{
+                width: 600px;
+                height: 300px;
+                border: 2px solid red;
+                text-align: center;
+                
+                
+            }
+            #leftpera{
+                font-family:fantasy ;
+                font-size: 30px;
+            }
+            #select option{
+                color: blue;
+            }
+            #chaptername{
+                width: 400px;
+                height : 35px;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+            #type input{
+                width: 393px;
+                margin-top: 8px;
+                margin-bottom: 8px;
+                text-align: center;
+            }
+            #underclass input{
+                width: 393px;
+                margin-top: 0cqmin;
+                margin-bottom: 6px;
+                text-align: center;
+            }
+                
+        
 
             .ctnrhead {
                 /* border: 2px solid red; */
@@ -103,7 +142,7 @@
                 font-size:30px;  
               
                  margin-left: 90px;  
-               
+                
             }
             .underhead {
                 /* border: 2px solid rgb(248, 6, 6); */
@@ -128,6 +167,13 @@
              }
             #text input{
                 background-color: aqua;
+                width: 300px;
+                height: 30px;
+                border: none;
+                margin-left: 30px;
+                border-radius: 30px;
+                text-align: center;
+               
             }
             #text input:hover{
                 color: black;
@@ -212,6 +258,29 @@
                      </div>
                 </div>
 
+            </div>
+            <div class="containerleft">
+                <p id="leftpera">
+                 To Search, Notes, Solutions select class, Type Subject, Type Chapter Now Click On Search Button
+                </p> 
+                <div id="select"> 
+                    <select name="name" id="chaptername">
+                        <option value="1">Class 6</option>
+                        <option value="2">Class 7</option>
+                        <option value="3">Class 8</option>
+                        <option value="4">Class 9</option>
+                        <option value="5">Class 10</option>
+                        <option value="6">Class 11</option>
+                        <option value="7">Class 12</option>
+            
+                    </select>
+                </div>
+                <div id="type"> 
+                    <input type="text"placeholder="Type Subject" >
+                </div>
+                <div id="underclass">
+                    <input type="text"placeholder="Type Chapter Name">
+                </div>
             </div>
         </div>
 
