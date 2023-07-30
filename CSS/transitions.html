@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+   #box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-self: center;
+    align-items: center;
+    /* ye trnasition property dikat de rai hai */
+    /* transition-property: background-colour; */
+    transition-duration: 2s;
+    transition-delay: 2s;
+    /* transition: all 1s ease-in-out .3s; */
+     
+   }
+   #box:hover{
+   
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 30px;
+   }
+</style>
+<body>
+   <h3>this my code</h3>
+   <div class="container">
+    <div id="box">
+        this is box
+    </div>
+   </div>
+</body>
+</html>
