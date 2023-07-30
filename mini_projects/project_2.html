@@ -189,10 +189,18 @@
                 /* border: 2px solid cornflowerblue; */
             }
             .list{
-               padding-left: 120px;
+               /* padding-left: 60px; */
+
+            }
+            .list li{
+                /* width: 40%; */
+            }
+            .list li:nth-child(even){
+                background-color: #aed0ca;
+                
             }
             .listmaterial{
-                padding-top: 30px;
+                padding: 15px;
             }
             .listmaterial:hover{
                 cursor: pointer;
@@ -225,6 +233,105 @@
                 box-shadow: 1px 1px darkred;
                 cursor: pointer;
             }
+            .total{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .matter{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 80vh;
+                justify-content: space-between;
+                /* box-sizing: border-box; */
+              
+            }
+            .matter ul{
+                margin-top: 0;
+                 display: block;
+                 width: 456px;
+                 height: 158px;
+            }
+            .matter li{
+                list-style: none;
+                font-size: 2rem;
+               
+                
+            }
+            @keyframes pera {
+               
+                    0%{
+                        border: 9px solid red;
+                   }
+                   25%{
+                    border: 9px solid rgb(118, 139, 48);
+                   }
+                   50%{
+                    border: 9px solid rgb(19, 118, 87);
+                   }
+                   75%{
+                    border: 9px solid rgb(14, 75, 121);
+                   }
+                   100%{
+                    border: 9px solid red;
+                   }
+                
+            }
+            .matter p{
+                font-size: 3rem;
+                border: 9px solid red;
+                padding:15px;
+                animation-name: pera;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            .matter p:hover{
+                          
+       
+            }
+            .form{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                font-size: 2rem;
+                width: 100%;
+                height: 50%;
+                bottom: 0;
+            }
+            #last{
+                display: block;
+                text-align: center;
+               
+            }
+
+            .ctnritems{
+                width: 40%;
+            }
+           
+            #form{
+                
+            }
+            #input{
+                text-align: center;
+                display: block;
+                width: 80%;
+                padding: 70px;
+                box-sizing: border-box;
+            }
+            #input input{
+                display: block;
+                width: 80%;
+                text-align: center;
+                margin: auto;
+            }
+            #msgbox{
+                
+            }
+
         </style>
     </head>
 
@@ -319,6 +426,33 @@
                     <li class="listmaterial">Book Answers</li>
                     <li class="listmaterial">Book Content</li>
                 </ul>
+            </div>
+            <div class="matter">
+                
+                    <ul>
+                       <li> If you are not achive 90% marks </li>
+                       <li> If you are not profe your self </li>
+                       <li> If you think study such a boring </li>
+                    </ul>
+                    <p> join us now</p>
+                    <div class="form">
+
+                        <div id="input">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="enter name">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="enter email">
+                            <label for="number">Your Phone.no</label>
+                            <input type="phone" id="number" placeholder="enter contact no.">
+                        </div>
+                    </div>
+                        <div id="msgbox">
+                                    <label id="last" for="area">write what you expact</label>
+                                     <textarea name="x" id="area" cols="50" rows="10">
+                                     </textarea>
+                        </div>
+                    
+              
             </div>
         </div>
 
