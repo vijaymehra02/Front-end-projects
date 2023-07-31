@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1500px;
+}
+:root{
+    --headhightoverall:15rem
+}
+.border{
+    border: 1px solid white;
+}
+.liststyle{
+     list-style: none;
+}
+.fonttop{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.navfont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem ;
+}
+.topfsize{
+    font-size: 3rem;
+    text-shadow: 3px 3px 2px cadetblue; 
+}  
+.mp{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER PART */
+header::before{
+    content: "";
+    background-color: rgb(186, 205, 199);
+    position: absolute;
+    width: 100vw;
+    height: var(--headhightoverall);
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.3;
+}
+.headerhight{
+    height: var(--headhightoverall)
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.headerrightbox{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 45%;
+}
+.headerrightbox ul{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: left; 
+}
+.headerleftbox{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerleftbox img{
+    width: 25rem;
+    height: auto;
+    
+}
+.padingheadtop{
+    padding-top: 25px;
+}
+
+/* NAV PART  */
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100dvw;
+    height: 4rem;
+    align-items: center;
+    
+}
+nav ul li{
+    padding: 2px;
+    border-radius: 4px;
+}
+.navdiff{
+    background-color: #0d0d0d;
+    color: wheat;
+}
+nav ul li:hover{
+    background-color: #8d9f9f;
+    cursor: pointer;
+}
+
+/* NAV BAR KE NICHE WALI IMG  */
+.firstbox::before{
+    position: absolute;
+    content: "";
+    background: url(project2_1.jpg) no-repeat center center/cover  ;
+    top: 19rem;
+    left: 0;
+    width: 100svw;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.firstbox{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.firstbox p{  
+    width: 100vw;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 45px 138px;
+}
+#firstboxp1{
+    height: 60%;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem ;
+}
+#firstboxp2{
+    height: 40%;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem ;
+}
