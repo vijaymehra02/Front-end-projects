@@ -9,7 +9,7 @@ body{
     --headhightoverall:15rem
 }
 .border{
-    border: 1px solid white;
+    border: 1px solid rgb(249, 6, 6);
 }
 .liststyle{
      list-style: none;
@@ -62,7 +62,7 @@ header{
    display: flex;
    width: 100%;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content:space-evenly;
    text-align: left; 
 }
 .headerleftbox{
@@ -139,4 +139,97 @@ nav ul li:hover{
     font-size: 1.5rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem ;
+}
+/* JABALPUR */
+
+#jabalpur{
+    width: 100vw;
+    height: 100px;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+
+/* location portion */
+.location{
+    display: flex;
+    width: 100svw;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.location li{
+    width: 200px;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+.locationleft{
+    width: 40%;
+    height: 300px;
+}
+.locationright{
+    width: 40%;
+    height: 300px;
+}
+#locationheadingleft{
+    text-align: center;
+    font-size: 2rem;
+}
+#locationheadingright{
+    text-align: center;
+    font-size: 2rem;
+}
+.locationhearlistleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+}
+.locationlistright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+}
+
+/* body ka kam chalu */
+.body::before{
+    position: absolute;
+    content: "";
+    background: url(project2_2.jpg) no-repeat center center/cover  ;
+    top: 71rem;
+    left: 0;
+    width: 100svw;
+    height: 371px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.body{
+
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.bodyheading{
+    font-size: 3rem;
+}
+.bodypera{
+    font-size: 1.5rem;
+}
+.butten{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.mgn1{
+    margin-top: 17px;
+    width: 100px;
+}
+.mgn2{
+    margin-top: 17px;
 }
