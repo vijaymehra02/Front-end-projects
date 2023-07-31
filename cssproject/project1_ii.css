@@ -1,0 +1,73 @@
+/* header */
+#head::before {
+   
+    height: 131px;
+}
+#block1 {
+    font-size: 30px;
+}
+
+#text input {
+    background-color: #5d5165;
+    width: 158px;
+    height: 25px;
+    border: none;
+    margin-left: 2px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* bar  */
+.itemslist{
+   display: block;
+   font-size: 14px;
+   width: 52%;
+   margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.bar {
+  
+    width: 97.9vw;
+   
+}
+
+.items {
+
+    padding: 4px;
+}
+
+.matter li{
+    font-size: 1rem;
+}
+
+
+/* container  */
+.container{
+    display: block;
+}
+#leftimg img {
+    width: 50%;
+  
+}
+#leftimg{
+    width: 50%;
+}
+
+
+
+
+/* total>matter  */
+
+
+/* text area  */
+#msgbox textarea{
+    width: 140px;
+    
+    height: 70px;
+    
+}
+
+ /* home */
+
