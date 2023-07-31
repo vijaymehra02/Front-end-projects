@@ -20,7 +20,7 @@ body::before{
     margin: 0;
 }
 #head::before{
-    background: url("project2.png")no-repeat center center/cover;
+    background: url("project1.png")no-repeat center center/cover;
     
     position: absolute;
     content: "";
@@ -110,9 +110,10 @@ body::before{
     font-size: 20px;
 }
 #type input{
-    width: 80%;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    width: 78%;
+    height: 40%;
+    margin-top: 13px;
+    margin-bottom: 0px;
     text-align: center;
 }
 #underclass input{
@@ -197,7 +198,7 @@ body::before{
     width: 20vw;
     height: 30px;
     text-align: center;
-   
+    padding: 15px;
     display: block;
     margin: auto;
 
@@ -311,7 +312,10 @@ body::before{
     text-align: center;
     margin: auto;
 }
-#msgbox{
+#msgbox textarea{
+    width: 478px;
+    
+    height: 128px;
     
 }
 
