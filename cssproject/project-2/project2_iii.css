@@ -1,0 +1,202 @@
+:root {
+    --headhightoverall: 6rem;
+}
+
+/* header   */
+header {
+    /* display: flex; */
+    /* justify-content: center;    */
+}
+.headerrightbox{
+    /* width: 60%; */
+   
+}
+.headerleftbox {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    /* width: 45%; */
+    /* float: right; */
+    overflow: hidden;
+}
+.topfsize{
+   font-size:  1rem;
+} 
+.headerleftbox img {
+    width: 9rem;
+    height: auto;
+}
+.headerrightbox ul {
+    /* display: inline-block; */
+} 
+
+/* navbar  */
+.navbar ul{
+    height: 2rem;
+    flex-wrap: wrap;
+}
+.navbar ul li{
+    font-size: 10px;     
+}
+.firstbox::before {
+    top: 6rem;
+    height: 263px;
+}  
+
+/* first box */
+
+.firstbox{
+    /* border: 1px solid red; */
+    height: 229px;
+}
+
+#firstboxp1 {
+    font-size: 1rem;
+    height: 50%;
+}
+.firstbox p {
+    padding: 9px 10px;
+}
+#firstboxp2 {
+    font-size: 1rem;
+    height: 50%;
+}
+
+/* jabalpur */
+#jabalpur {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    height: 55px;
+}
+
+.location{
+    height: 264px;
+}
+
+.locationleft{
+    height: 254px;
+}
+.locationright {
+    height: 254px;
+}
+
+#locationheadingleft {
+    text-align: center;
+    font-size: 1.5rem;
+}
+#locationheadingright {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.locationlistright {
+    height: 170px;
+    font-size: 1.3rem;
+}
+.locationhearlistleft {
+    height: 170px;
+    font-size: 1.3rem;
+}
+.location li {
+    width: 148px;
+    font-size: 1rem;
+    margin-left: 0px;
+}
+
+/* body  */
+.body::before {
+    top: 43rem;
+    height: 282px;
+}
+.body{
+    height: 295px;
+}
+.bodyheading {
+    font-size: 1.5rem;
+}
+.bodypera {
+    font-size: 1rem;
+}
+/* traning  */
+.traning{
+    height: 600px;
+}
+.traninghead {
+    font-size: 1.5rem;
+}
+.traningmatter {
+    font-size: 1rem;
+    text-align: center;
+}
+/* .traning ul{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+.traning ul li {
+    width: 80%;
+    height: 24.5%;
+    font-size: 0.9rem;
+    margin: auto;
+    background-color:#d6c3c3;
+} */
+
+.traning ul{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.traning ul li{
+     width: 100%;
+     height: 24.5%;
+     
+}
+.li2 {
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+.li3 {
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+.li4{
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+/* timing */
+.time::before {
+    height: 499px;
+    top: 1581px;
+  
+}
+.timehead {
+    font-size: 1.5rem;
+}
+.timepera {
+    font-size: 1rem;
+}
+.timelast {
+    font-size: 1.5rem;
+}
+.timefirst {
+    height: 211px;
+}
+.twolist {
+    width: 73vw;
+    height: 158px;
+}
+.twolist ul{
+    display: inline-block;
+}
+
+/* footer  */
+footer li{
+   font-size: 0.7rem;
+}
+.firstblock {
+    font-size: 1rem;
+}

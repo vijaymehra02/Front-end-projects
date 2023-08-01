@@ -3,13 +3,16 @@
     padding: 0;
 }
 body{
+    width: 100vw;
     height: 1500px;
+    background-color:#dad2d2;
+
 }
 :root{
     --headhightoverall:15rem
 }
 .border{
-    border: 1px solid rgb(249, 6, 6);
+    /* border: 1px solid rgb(249, 6, 6); */
 }
 .liststyle{
      list-style: none;
@@ -232,4 +235,136 @@ nav ul li:hover{
 }
 .mgn2{
     margin-top: 17px;
+}
+
+/* traning part stard */
+.traning{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100vw;
+}
+.traning ul{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    text-align: center;
+    height: 150px;
+    font-size: 1.2rem;
+}
+.traning ul li{
+    width: 20%;
+    height: 100%;
+    font-size: 0.9rem;
+}
+.traninghead{
+    font-size: 3rem;
+}
+.traningmatter{
+    font-size: 1.5rem;
+}
+.traningfirst{
+    font-size: 1.1rem;
+    border-radius: 4px;
+    background-color: #ae9393;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.traningfirst:hover{
+    cursor: pointer;
+    background-color: #4f4646;
+    color: bisque;
+}
+.traninglast{
+    font-size: 1rem;
+}
+
+/* timing portion stard */
+.time::before{
+    
+        content: "";
+        background: url(project2_5.jpg)no-repeat center center/cover;
+        position: absolute;
+        width: 100vw;
+        height: 499px;
+        left: 0;
+        top: 2012px;
+        z-index: -1;
+        opacity: 0.5;
+
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    width: 100vw;
+    height: 500px;
+}
+.timefirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 193px;
+}
+.timehead{
+    font-size: 2.5rem;
+}
+.timepera{
+    font-size: 1.5rem;
+}
+.timelast{
+    font-size: 2rem;
+}
+.twolist{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 200px;
+}
+.twolist ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.twolist ul li:hover{
+    cursor: pointer;
+    color: #000000d5;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 2px #f4c1c1;
+}
+
+/* footer  */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 300px;
+    padding-top: 40px;
+    background-color: #393030;
+    color:#ffcccc;
+}
+.footerclass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.firstblock{
+    font-size: 1.5rem;
+}
+.footersecond{
+    height: 70%;
+}
+.footerthird{
+    height: 50%;
+}
+.footer li:hover{
+    cursor: pointer;
+    transform: scale(1.5);
 }
