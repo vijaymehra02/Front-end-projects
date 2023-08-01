@@ -76,14 +76,22 @@ header {
 
 .locationleft{
     height: 254px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .locationright {
     height: 254px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #locationheadingleft {
+    width: 100%;
     text-align: center;
     font-size: 1.5rem;
+    width: 100%;
 }
 #locationheadingright {
     text-align: center;
@@ -98,9 +106,9 @@ header {
     font-size: 1.3rem;
 }
 .location li {
-    width: 148px;
+    width: 99px;
     font-size: 1rem;
-    margin-left: 0px;
+    margin: auto;
 }
 
 /* body  */
@@ -168,9 +176,12 @@ header {
 }
 
 /* timing */
+.time{
+    justify-content: space-evenly;
+}
 .time::before {
-    height: 499px;
-    top: 1581px;
+    height: 532px;
+    top: 1568px;
   
 }
 .timehead {
@@ -184,6 +195,7 @@ header {
 }
 .timefirst {
     height: 211px;
+    justify-content: space-evenly;
 }
 .twolist {
     width: 73vw;
