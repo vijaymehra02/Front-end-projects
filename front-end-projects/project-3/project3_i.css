@@ -1,0 +1,260 @@
+
+ body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto
+ }
+ body::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(rgb(247, 216, 216),rgb(243, 247, 193) ,rgb(176, 225, 243));
+    width: 100vw;
+    height: 30rem;
+    z-index: -1;
+
+ }
+ :root{
+    --navfs:1.3rem;
+    --navsbc:#f9eeee;
+    --sectionfs:1.1rem;
+ }
+ .mp{
+    margin: 0;
+    padding: 0;
+ }
+ .border{
+    /* border: 1px solid red; */
+ }
+ .navfs{
+    font-size: var(--navfs);
+ }
+ .liststyle{
+    list-style: none;
+ }
+
+ /* NAV BAR */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100vw;
+    height: 54px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+ }
+ .navvijay{
+   font-family: 'Lobster', cursive;
+   font-family: 'Pacifico', cursive;
+   font-family: 'REM', sans-serif;;
+   font-size: 2rem;
+ }
+ .navsearch{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border-radius: 40px;
+    background-color:var(--navsbc)
+     
+ }
+ .navsr{
+    width: 30%;
+ }
+ .navsl{
+    width: 70%;
+ }
+ #types {
+    background-color:var(--navsbc)
+ }
+ #search{ 
+   width: 60%;
+  
+ }
+.search{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color:var(--navsbc)
+}
+.lojo{
+    display: flex;
+    height: 80%;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.lojoj{
+    width: 55px;
+    text-align: center;
+
+}
+  /* NAV HOVER  */
+.lojoj:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+}   
+.navsl:hover{
+    transform: scale(1.1);
+} 
+
+/* under NAV bar  */
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 95px;
+    border: 0.1px solid black;
+    font-size: var(--sectionfs);
+}
+.sectionl{
+    width: 60%;
+}
+.sectionl ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;   
+}
+.sectionr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 30px;   
+}
+
+ /* INFORMATION SECTION  */
+.info{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 300px;
+   text-align: left;
+   justify-content: space-evenly;
+} 
+.infofirst{
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'REM', sans-serif;
+    font-size:2rem;
+    padding-left: 60px;
+}
+.info p{
+    padding-left: 60px;
+}
+.info ul{
+    display: flex;
+    width: 70%;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.info li{
+    padding: 5px;
+    border-radius: 13px;
+    background-color:#eeffee
+}
+
+/* CONTAINER  */
+.container{
+    width: 100vw;
+    height: 1338px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div2 img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.div1 img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.div{
+    overflow: hidden;
+}
+.div img:hover{
+    scale: 1.1;
+    transition-duration:0.5s;
+}
+.div2{
+     width: 24%;
+}
+
+
+/* footer  */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 450px;
+}
+.footerl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 180px;
+} 
+.flhead{
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'REM', sans-serif;
+    font-size: 2rem;
+}
+.flpera{
+    font-size: 1.2rem;
+}
+.fllogo{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.fllogo img{
+    width: 20px;
+    height: 20px;
+}
+.footerr{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    height: 350px;
+}
+.footerr ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.l1{
+    font-size: 1.4rem;
+}
+.u1{
+    height: 100%;
+}
+.u2{
+    height: 60%;
+}
+.u3{
+    height: 75%;
+}
+.last{
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+
+
