@@ -98,7 +98,13 @@ nav{
 }   
 .navsl:hover{
     transform: scale(1.1);
+}
+.lojol:hover{
+    cursor: pointer;
 } 
+.uplode:hover{
+    cursor: pointer;
+}
 
 /* under NAV bar  */
 .section{
@@ -158,11 +164,17 @@ nav{
     border-radius: 13px;
     background-color:#eeffee
 }
+.info ul li:hover{
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgb(20, 20, 20);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
 
 /* CONTAINER  */
 .container{
     width: 100vw;
-    height: 1338px;
+    /* height: 1338px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -178,6 +190,7 @@ nav{
 .div{
     overflow: hidden;
 }
+
 .div img:hover{
     scale: 1.1;
     transition-duration:0.5s;
@@ -254,6 +267,10 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #f3f3f3;
+}
+.footerr ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 

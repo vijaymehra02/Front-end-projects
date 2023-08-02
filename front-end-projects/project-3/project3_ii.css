@@ -1,0 +1,164 @@
+/* header  */
+:root{
+    --navfs:0.9rem;
+}
+
+
+
+/* NAV BAR  */
+nav{
+    flex-wrap: wrap;
+    height: 80px;
+}
+.navvijay {
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    order: 1;
+    height: 50%;
+}
+.navsearch {
+    width: 60%;
+    order: 2;
+    height: 30%;
+    justify-content: space-evenly;
+}
+.navsl{
+    order: 4;
+    border-radius: 10px;
+    width: 60%;
+}
+.navsr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+}
+.navsr select{
+    font-size: 0.6rem;
+ 
+}
+#search{
+    width: 90%;
+}
+
+footer{
+    display: block;
+}
+
+element.style {
+}
+.lojo {
+    order: 5;
+    height: 30%;
+    width: 20%;
+ 
+}
+.uplode{
+    order: 6;
+    height: 30%;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* section  */
+.sectionr{
+    display: block;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+.sectionl {
+    width: 65%;
+}
+.section ul {
+    font-size: 0.9rem;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 68px;
+}
+.sectionr1{
+    padding-top: 21px;
+}
+.sectionr2{
+    padding-top: 21px;
+}
+
+/* INfo portion */
+.info{
+    height: 194px;
+}
+.infofirst {
+    font-size: 1.3rem;
+    padding-left: 8px;
+}
+.info p {
+    padding-left: 8px;
+}
+.info ul {
+    width: 100%;
+    font-size: 0.8rem;
+}
+.info li {
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+/* container  */
+.container{
+    flex-wrap: wrap;
+}
+.div2 {
+    width: 46%;
+}
+
+/* footer  */
+
+
+.footerl {
+    width: 100%;
+    justify-content: space-evenly;
+    height: 213px;
+}
+.flhead {
+    font-size: 1rem;
+    padding-left: 20px;
+}
+.flpera {
+    font-size: 0.8rem;
+}
+.fllogo {
+    width: 42%;
+    margin-left: 29px;
+}
+.footerr {
+    width: 100%;
+    height: 228px;
+    justify-content: space-evenly;
+}
+.footerr ul li{
+    font-size: 0.8rem;
+}
+.u1 {
+    height: 100%;
+}
+.l1{
+    font-size: 1rem;
+}
+.u1{
+    height: 100%;
+}
+
+
+
+
+
+/* /ast  */
+.last {
+    height: 70px;
+    font-size: 0.4rem;
+}
+
+
