@@ -98,6 +98,7 @@ nav{
 }   
 .navsl:hover{
     transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 .lojol:hover{
     cursor: pointer;
