@@ -1,7 +1,8 @@
 :root{
-    --h2font:1.3rem;
-    --ankerfont:0.8rem;
-    --infofont:0.8rem;
+    --h2font:1.8rem;
+    --ankerfont:1rem;
+    --infofont:1rem;
+    --h2pal:14px;
 }
 body{
     margin: 0;
@@ -33,6 +34,9 @@ body::before{
     font-size: 1rem;
     font-weight: 700;
 }
+.cbh2ff{
+    font-family:sans-serif;
+}   
 .hbdr{
     border: 1px solid transparent;
 }
@@ -45,11 +49,12 @@ header{
     width: 100vw;
 }
 /* navbar1 */
+
 .nav1{
     display: flex;
     justify-content: space-evenly;
     background-color:  #0e0c18;
-    color: wheat;
+    color: white;
     height: 57px;
     width: 100vw;
 }
@@ -79,6 +84,7 @@ header{
     align-items: center;
     width: 50%;
     box-sizing: border-box;
+    height: 90%;
 }
 .nav3-1{
     display: flex;
@@ -89,10 +95,12 @@ header{
 }
 .nav3-1 select{
     width: 100%;
-    height: 100%;
+    height: 97.9%;
     border: none;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
+    text-align: center;
+    font-size: var(--infofont);
 }
 .nav3-2{
     display: flex;
@@ -130,7 +138,7 @@ header{
     font-size: 1.8rem;
 }
 .nav3:hover{
-    border: 2px solid #e9a43d;
+    border: 3px solid #e9a43d;
     cursor: pointer;
 }
 /* nabbar 4 */
@@ -153,8 +161,10 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column; 
+    
+    }
 
-}
+
 /* navbar7 */
 .nav7{
     display: flex;
@@ -217,6 +227,9 @@ header{
     justify-content: space-evenly;
     margin-top: 25px;
 }
+.container1 a:hover{
+    color: rgb(207, 13, 13);
+}
 .c1b1{
     width: 24%;
     display: flex;
@@ -226,7 +239,7 @@ header{
     background-color: white;
 }
 .c1b1 h2{
-    padding-left: 10px;
+    padding-left: var(--h2pal);
     font-size: var(--h2font);
 }
 .c1b1 a{
@@ -262,8 +275,9 @@ header{
     background-color: white;
 }
 .c1b2 h2{
-    padding-left: 10px;
+    padding-left: var(--h2pal);
     font-size: var(--h2font);
+   
 }
 .c1b2 a{
     padding-left: 10px;
@@ -297,7 +311,7 @@ header{
     background-color: white;
 }
 .c1b3 h2{
-    padding-left: 10px;
+    padding-left: var(--h2pal);
     font-size: var(--h2font);
 }
 .c1b3 a{
@@ -399,17 +413,17 @@ header{
 .inb5{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100vw;
-    height: 220px;
+    height: 270px;
     flex-direction: row;
 }
 .b5{
     width: 12%;
-    font-size: 0.4rem;
+    font-size: var(--infofont);
 } 
 .b5-1{
     font-size: 0.4rem;
     margin: 0;
-    padding: ;
 }
 
