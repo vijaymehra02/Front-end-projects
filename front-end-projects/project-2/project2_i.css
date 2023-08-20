@@ -110,7 +110,7 @@ nav ul li:hover{
 .firstbox::before{
     position: absolute;
     content: "";
-    background: url(project2_1.jpg) no-repeat center center/cover  ;
+    background: url(images/project2_1.jpg) no-repeat center center/cover  ;
     top: 19rem;
     left: 0;
     width: 100svw;
@@ -199,7 +199,7 @@ nav ul li:hover{
 .body::before{
     position: absolute;
     content: "";
-    background: url(project2_2.jpg) no-repeat center center/cover  ;
+    background: url(images/project2_2.jpg) no-repeat center center/cover  ;
     top: 71rem;
     left: 0;
     width: 100svw;
@@ -287,7 +287,7 @@ nav ul li:hover{
 .time::before{
     
         content: "";
-        background: url(project2_5.jpg)no-repeat center center/cover;
+        background: url(images/project2_5.jpg)no-repeat center center/cover;
         position: absolute;
         width: 100vw;
         height: 499px;
