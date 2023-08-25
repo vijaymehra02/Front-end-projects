@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vw;
+        }
+
+        .container {
+            width: 400px;
+            position: relative;
+            top: 10%;
+            left: 5%;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            margin: auto;
+            background-color: #fdf2f2;
+            flex-direction: column;
+        }
+
+        .box {
+            width: 80%;
+            border: 2px solid gray;
+            background-color: #effdd0;
+            margin: 8px;
+            transition-duration: 0.5s;
+        }
+
+        .tital {
+            width: 80%;
+        }
+
+        .matter {
+            display: none;
+        }
+
+        .tital {
+            color: #f61515;
+        }
+
+        .active {
+            border: 0px 2px 2px 2px gray;
+            display: block;
+            padding: 20px;
+        }  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div class="tital">matter 1 </div>
+            <div class="matter">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea sint nobis, blanditiis quaerat, vel
+                exercitationem veniaml Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum ad corrupti nihil placeat quisquam tempore non quasi officiis quod molestias ullam error hic nemo numquam eaque, deserunt explicabo minima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fuga, placeat architecto unde possimus voluptates minus numquam, sint cum saepe ea vitae itaque eum dolores consequatur magni vel cumque repellat voluptate optio ducimus. Eveniet voluptatem asperiores nam impedit perferendis vel! recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="tital">matter 2</div>
+            <div class="matter">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea sint nobis, blanditiis quaerat, vel
+                exercitationem veniam recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.minima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fuga, placeat architecto unde possimus voluptates minus numquam, sint cum saepe ea vitae itaque eum dolores consequatur magni vel cumque repellat voluptate optio ducimus. Eveniet voluptatem asperiores nam impedit perferendis vel! recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="tital">matter 3 </div>
+            <div class="matter">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea sint nobis, blanditiis quaerat, vel
+                exercitationem veniam rminima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fuga, placeat architecto unde possimus voluptates minus numquam, sint cum saepe ea vitae itaque eum dolores consequatur magni vel cumque repellat voluptate optio ducimus. Eveniet voluptatem asperiores nam impedit perferendis vel! recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.ecusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="tital">matter 4 </div>
+            <div class="matter">
+                second ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea sint nobis, blanditiis quaerat,
+                velminima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam fuga, placeat architecto unde possimus voluptates minus numquam, sint cum saepe ea vitae itaque eum dolores consequatur magni vel cumque repellat voluptate optio ducimus. Eveniet voluptatem asperiores nam impedit perferendis vel! recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.
+                exercitationem veniam recusandae aliquam asperiores magnam eligendi sed repellat libero quis est
+                pariatur nam. Iusto.
+            </div>
+        </div>
+
+    </div>
+    <script>
+        let box = document.querySelectorAll('.box');
+        box.forEach((item) => {
+            let tital = item.querySelector('.tital')
+            let pera = item.querySelector('.matter')
+
+            tital.addEventListener('click', () => {
+                for (let i = 0; i < box.length; i++)
+                
+                // console.log(box[i].querySelector(".tital"))
+                
+                //  if (box[i] != item)
+                    if(tital != box[i].querySelector(".tital") ){
+                        box[i].querySelector('.matter').classList.remove('active')
+                    } else {   
+                        box[i].querySelector('.matter').classList.toggle('active')
+                    }
+            })
+        })
+
+
+        //  tital.addEventListener('click',()=>{
+        //       pera.classList.toggle('active') })
+    </script>
+</body>
+
+</html>

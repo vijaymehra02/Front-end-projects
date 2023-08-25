@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    max-width: 600px;
+    padding: 0 20 px;
+}
+.wrapper .parent-tab,
+.wrapper .child-tab{
+margin-bottom: 8px;
+border-radius: 3px;
+box-shadow: 0px 0px  15px rgba(0,0,0,0.18);
+
+}
+.wrapper .parent-tab label,
+.wrapper .child-tab label{
+ background: #007bff;
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ cursor: pointer;
+ border-radius: 3px;
+ position: relative;
+ z-index: 99;
+}
+
+.wrapper label span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0 -1px 1px #0056b3;
+}
+.child-tab label span{
+    font-size: 17px;
+}
+.wrapper label .icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    color: #007bff;
+    font-size: 15px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-shadow: 0 -1px 1px #0056b3;
+}
+.parent-tab input:checked ~ label .icon i:before,
+.child-tab input:checked ~ label .icon i:before{
+    content: '\f068';
+}
+.wrapper label .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrapper .parent-tab .content ,
+.wrapper .child-tab .sub-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s ease; 
+}
+.parent-tab input:checked ~ .content ,
+.child-tab input:checked ~ .sub-content {
+  max-height: 100vh;
+}
+.tab-3 input:checked ~ .content{
+    padding: 15px 20px;
+}
+.wrapper .parent-tab .content p ,
+.wrapper .child-tab .sub-content p{
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.wrapper input{
+    display: none;
+}
